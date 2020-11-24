@@ -1,0 +1,219 @@
+/***************************** 
+Use this style sheet to customise LiveTiles Everywhere Branding
+
+Updated: 26/10/2020
+*******************************/
+
+:root {
+    --panel-background-color-one: #002c5f;
+    --panel-background-color-two: #000000;
+    --panel-hover-active-color: #00aad2;
+  }
+  
+  .power-panel[data-v-1d3bc066] {
+  background: rgb(81,45,168);
+  background: linear-gradient(180deg, var(--panel-background-color-one) 40%, var(--panel-background-color-two) 100%);
+  }
+  
+  .bar-list {
+  background: rgb(81,45,168);
+  background: linear-gradient(180deg, var(--panel-background-color-one) 40%, var(--panel-background-color-two) 100%);
+  }
+  .useThemes .bar-list__item
+  .bar-list[data-v-1d3bc066]:after {
+      background-color: rgba(0, 0, 0, 0) !important;
+      right: 0;
+      bottom: 0;
+      top: 0;
+      border: none !important;
+  }
+  
+  .bar-list__item {
+     /* background-color: var(--panel-background-color) !important;*/
+     background-color: rgba(0, 0, 0, 0) !important;
+      color: #fff !important;
+  }
+  
+  .bar-list__item:hover {
+       background-color: var(--panel-hover-active-color) !important;
+  }
+  
+  .bar-list__item.active {
+      background-color: var(--panel-hover-active-color) !important;
+  }
+  
+  .useThemes .panel-header[data-v-60e023b1] {
+      font-weight: bold !important;
+      font-size: 30px !important;
+      color: #3d3a3b !important;
+      padding: 30px 10px 15px;
+      margin: 5px 7px 30px;
+      border-bottom: 3px solid #3d3a3b;
+  }
+  
+  .header .content-box[data-v-65a100bc] {
+      padding-bottom: 0px !important;
+  }
+  
+  .service-menu .header-container {
+      padding-bottom: 20px;
+  }
+  
+  .header-container .header[data-v-4d79f48e] {
+      font-family: 'Lato', sans-serif;
+  }
+  
+  .category-container h2[data-v-4d79f48e] {
+      font-family: 'Lato', sans-serif;
+      border-bottom: 4px solid #eaeaea;
+      padding-bottom: 5px;
+      margin-top: 15px !important;
+  }
+  
+  .list-styling .panel-section .link-text[data-v-4d79f48e] {
+      font-family: 'Lato', sans-serif !important;
+  }
+  
+  .tile__title[data-v-786fcfb8] {
+      font-family: 'Lato', sans-serif;
+  }
+  
+  .header .title[data-v-65a100bc] {
+      font-family: 'Lato Black', sans-serif;
+  }
+  
+  .description__text[data-v-65a100bc] {
+      font-family: 'Lato', sans-serif;
+  }
+  
+  .button-text[data-v-39057594] {
+      font-family: 'Lato', sans-serif;
+  }
+  
+  .ff-Container .fEydmo {
+      background-color: red !important;
+  }
+  
+  /* Service Menu */
+    
+    .useThemes .header-container span.header {
+        background: #eaeaea;
+        padding: 0px 10px;
+        line-height: 40px;
+        /* text-align: center; */
+        display: inline-block;
+        border-radius: 3px;
+        /* text-decoration: none !important; */
+        margin-bottom: 5px !important;
+        margin-left: 0px !important;
+        font-family: lato;
+        font-size: 12px;
+    }
+    
+    .useThemes .header-container .header.is-active[data-v-4d79f48e] {
+        background: #FE5E54 !important;
+        color: #fff !important;
+        font-weight: 900;
+        border-bottom: none !important;
+    }
+    
+    .useThemes .list-styling .tile-styling[data-v-4d79f48e] {
+        border-radius: 10px;
+        font-family: lato;
+        padding: 0px 10px !important;
+    }
+    
+    .useThemes .list-styling .link-text[data-v-4d79f48e] {
+        bottom: 3px !important;
+    }
+    
+    /* My Dashboard */
+    
+    .useThemes .personalEmail_d9dd492d {
+        border: 5px solid #eaeaea;
+        padding: 10px;
+    }
+    
+    .useThemes .personalCalendar_3bf30695 {
+        border: 5px solid #eaeaea;
+        padding: 10px;
+    }
+    
+    .useThemes .personalTasks_116df72e {
+        border: 5px solid #eaeaea;
+        padding: 10px;
+    }
+    
+    .useThemes .recentlyUsedDocuments_ff7aac8f {
+        border: 5px solid #eaeaea;
+        padding: 10px;
+    }
+    
+     /* TEAMS CSS */
+    
+    .useThemes .panel-header[data-v-73de5930] {
+      font-weight: bold !important;
+      font-size: 30px !important;
+      color: #3d3a3b !important;
+      padding: 30px 10px 15px;
+      margin: 5px 7px 30px;
+      border-bottom: 3px solid #3d3a3b;
+    }
+    
+    .SPPageChrome-app .header .content-box[data-v-65a100bc] {
+        padding-bottom: 0px !important;
+    }
+    
+    .SPPageChrome-app .service-menu .header-container {
+        padding-bottom: 20px;
+    }
+    
+    .SPPageChrome-app .header-container .header[data-v-4d79f48e] {
+        font-family: 'Lato', sans-serif;
+    }
+    
+    .SPPageChrome-app .category-container h2[data-v-4d79f48e] {
+        font-family: 'Lato', sans-serif;
+        border-bottom: 4px solid #eaeaea;
+        padding-bottom: 5px;
+        margin-top: 15px !important;
+    }
+    
+    .SPPageChrome-app .list-styling .panel-section .link-text[data-v-4d79f48e] {
+        font-family: 'Lato', sans-serif !important;
+    }
+    
+    .SPPageChrome-app .tile__title[data-v-786fcfb8] {
+        font-family: 'Lato', sans-serif;
+    }
+    
+    .SPPageChrome-app .header .title[data-v-65a100bc] {
+        font-family: 'Lato', sans-serif;
+        font-weight: 900 !important;
+    }
+    
+    .SPPageChrome-app .description__text[data-v-65a100bc] {
+        font-family: 'Lato', sans-serif;
+    }
+    
+    .SPPageChrome-app .button-text[data-v-39057594] {
+        font-family: 'Lato', sans-serif;
+    }
+    
+  .SPPageChrome-app .bar-list {
+      background: rgb(81,45,168);
+      background: linear-gradient(90deg, rgba(81,45,168,1) 40%, rgba(0,0,0,1) 100%);
+  }
+    
+    /*Panel Styling*/
+    .power-panel__panel .flex-col {
+      -webkit-box-shadow: -2px 9px 25px -8px rgba(0,0,0,0.2);
+      -moz-box-shadow: -2px 9px 25px -8px rgba(0,0,0,0.2);
+      box-shadow: -2px 9px 25px -8px rgba(0,0,0,0.2);
+      padding: 15px;
+    }
+    
+    
+    
+    
+    

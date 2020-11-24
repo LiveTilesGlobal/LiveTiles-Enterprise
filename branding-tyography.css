@@ -1,0 +1,49 @@
+/***************************** 
+Use this style sheet to customise LiveTiles and SharePoint typography
+
+Created by: Dennis Drover
+Updated: 26/10/2020
+*******************************/
+
+/*
+@font-face {
+    font-family: 'HyundaiSansTextKRRegular'; 
+    src: url('https://hyundaicomau.sharepoint.com/sites/HyNet/SiteAssets/Fonts/HyundaiSansTextKRRegular.woff2'); 
+}
+
+*:not(i):not(.fa){
+    font-family: 'HyundaiSansTextKRRegular', HyundaiSansTextKRRegular !important;
+
+}
+*/
+
+/* LiveTiles Webpart Titles */
+
+/* All webpart headers  */
+.webpart-title[data-v-1f8d57e0], .webpart-title, .webpart-title[data-v-5501cafe] {
+    font-weight: 600 !important;
+    font-size: 20px !important;
+}
+/*Matchpoint Webpart Header*/
+.bHrdov, .bHrdov .title {
+    font-weight: 600 !important;
+    font-size: 20px !important;
+    background-color: #fff !important;
+    color: #000 !important;
+}
+
+/* Chrome: Title Only */
+.webpart-chrome .webpart-header.header-title {
+    
+}
+
+/* Chrome: Visual */
+
+
+/* Fantastic 40 webpart headers */
+
+/*Personal Tasks */
+div[class^="webPartTitle_"] {
+    font-weight: 600 !important;
+    font-size: 20px !important;
+}

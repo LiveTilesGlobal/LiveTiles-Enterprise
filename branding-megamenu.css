@@ -1,0 +1,89 @@
+/***************************** 
+Use this style sheet to customise LiveTiles Mega Menu Branding
+
+Updated: 26/10/2020
+*******************************/
+
+:root {
+    --mega-menu-background-color: #002c5f;
+    --mega-menu-text-color: #fff;
+    --mega-menu-dropdown-text-color: #000;
+    --mega-menu-dropdown-background: #fff;
+    --mega-menu-dropdown-item-heading-color: #a36b4f;
+    --mega-menu-topitem-hovercolor: #00aad2;
+  }
+  
+  :focus {
+      outline: none !important;
+  }
+  
+  
+  /* Hide OOTB Global Nav */
+  .HeaderRoot-sc-yv98om{
+      display: none;
+  }
+  
+  .BreadcrumbWrapper-sc-js04sb{
+      display: none;
+  }
+  
+  .ms-HorizontalNav[role="navigation"], [data-automationid="SiteHeaderTitle"], [data-automationid="SiteHeader"] {
+      display: none;
+  }
+  
+  /* Mega Menu Style Start */
+  .horizontalmenu[data-v-6d916dc4] {
+      background-color: var(--mega-menu-background-color) !important;
+  }
+  
+  
+  .wizdom-megamenu {
+      background-color: var(--mega-menu-background-color) !important;
+      font-weight: 300;
+      height: 60px;
+  }
+  
+  .wizdom-megamenu .topitem[data-v-6d916dc4] {
+      color: var(--mega-menu-text-color) !important;
+      color: var(--megamenu-fontcolor);
+      background-color: transparent !important;
+      font-size: 18px;
+      display: inline-block;
+      padding: 10px 30px;
+      line-height: 42px;
+      height: 40px;
+  }
+  
+  .wizdom-megamenu .topitem:hover {
+      background-color: var(--mega-menu-topitem-hovercolor) !important;
+  }
+  
+  .topitem-listitem.active[data-v-6d916dc4], .topitem-listitem[data-v-6d916dc4]:hover {
+      background: none !important;
+  }
+  
+  .item-type-heading[data-v-9ab9ca40] {
+      color: #fff !important;
+      background: var(--mega-menu-dropdown-item-heading-color) !important;
+      padding: 3px 10px;
+      font-weight: 600 !important;
+      text-transform: none !important;
+      font-size: 18px !important;
+  }
+  
+  .item-type-link {
+      margin-left: 10px;
+      font-weight: normal;
+      font-size: 14px !important;
+  }
+  
+  .item-type.item-type-link:hover {
+      cursor: pointer;
+  }
+  
+  .wizdom-megamenu .foldout[data-v-9ab9ca40]{
+       color: var(--mega-menu-dropdown-text-color) !important;
+       background-color: var(--mega-menu-dropdown-background) !important;
+  }
+  
+  /* *** MEGA MENU END *** */
